@@ -1,0 +1,24 @@
+#include<iostream>
+#include<conio.h>
+#include<stdio.h>
+#include<string.h>
+using namespace std;
+int fact(int );
+int main()
+{
+    int a,b;
+    cout<<"enter any number for foctroial=>"<<endl;
+    cin>>a;
+    b=fact(a);
+    cout<<"factorial is=>"<<b<<endl;
+}
+int fact(int n)
+{
+    int k;
+    if(n==0)
+        return (1);
+    else
+
+        k=n*fact(n-1);
+    return k;
+}
