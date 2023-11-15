@@ -1,0 +1,10 @@
+
+#include<iostream>
+using namespace std;
+int main()
+{
+cout<<"hii text "<<endl;
+return 0;
+}
+
+cout<<"this is the end of the code "<<endl;
